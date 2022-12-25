@@ -12,7 +12,7 @@ import (
 var (
 	host     = "localhost"
 	user     = "postgres"
-	password = "Viking_72"
+	password = ""
 	dBport   = "5432"
 	dBname   = "retail_bank"
 	db       *gorm.DB
@@ -33,7 +33,7 @@ func StartDb() {
 
 	fmt.Println("successfully connected to my database")
 
-	//untuk buat tabel baru
+	//Make new table
 	db.Debug().AutoMigrate(entity.User{})
 }
 
