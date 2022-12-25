@@ -1,6 +1,5 @@
 hi, this is a test I did when applying for a job but because I have wifi problems I missed the deadline.
-From here I learned that having more than 1 internet device is important.
-if you want to try please move all folders to a new folder.
+From here I learned that having more than 1 internet device is important
 
 If you want try pleaae follow the step
 
@@ -10,32 +9,34 @@ open your terminal
 
 run this code :
 ```sh
-go mod init golang-gorm
+go mod init golang_api_iseng
 ```
 
 or run this code:
 
 ```sh
-go mod init (name folder)
+go mod init (name your folder project use)
 ```
 
-## Second Step
+## Second Step Library 
 
+Gin-gonic
 ```sh
  go get -u github.com/gin-gonic/gin
 ```
 
+Gorm
 ## Third Step
 ```sh
  go get -u gorm.io/gorm
 ```
 
-## Fourth Step
-Run this code
-
+Library for postgresql 
 ```sh
 go get gorm.io/driver/postgres
 ```
+
+## Fourth Step
 
 make new db and input your user, password, and dbname in file db.go in folder database
 ```sh
@@ -68,3 +69,4 @@ For the test in my rest-api, you can use this postman
 https://api.postman.com/collections/13916221-79056d87-af9c-4b08-89f7-428ba37194d6?access_key=PMAT-01GN5F7A66PBCQGFXKY0XB1NP2
 ```
 
+I think i will deploy using railwayy
